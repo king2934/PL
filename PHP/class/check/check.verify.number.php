@@ -8,7 +8,7 @@
 */
 class CheckVerifyNumber
 {
-	//手机号码
+	//检验手机号码是否符合格式
 	public function verify_mobile($mobile)
 	{
 		if( trim($mobile) ){
@@ -25,7 +25,7 @@ class CheckVerifyNumber
 			return false;
 		}
 	}
-	//邮箱
+	//检验邮箱是否符合格式
 	public function verify_email($email)
 	{
 		if( trim($email) ){
@@ -44,7 +44,7 @@ class CheckVerifyNumber
 		}
 	}
 	
-	//身份证
+	//检验身份证号码是否符合格式
 	public function verify_taxid($taxid)
 	{
 		if( strlen($taxid)==18 ){
