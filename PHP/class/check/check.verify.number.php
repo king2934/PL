@@ -133,7 +133,8 @@ class CheckVerifyNumber
 				if( $day<1 or $day>31){
 					return false;
 				}else{
-					$dayCount = date("t",strtotime($year."-".$month));//cal_days_in_month(CAL_GREGORIAN,$month,$year);
+					$dayCount = date("t",strtotime($year."-".$month));
+					//$dayCount = cal_days_in_month(CAL_GREGORIAN,$month,$year);
 					if($day>$dayCount){
 						return false;
 					}else{
