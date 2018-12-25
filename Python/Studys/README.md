@@ -1,1 +1,1 @@
-#	Python 语文学习
+#	Python 语言学习
