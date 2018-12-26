@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#coding=utf-8
  
 import calendar
 monthRange = calendar.monthrange(2018,12)

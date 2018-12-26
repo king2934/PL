@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#coding=utf-8
 import os, sys
 
 # 假定 f.txt 文件存在，并有读写权限

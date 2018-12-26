@@ -1,5 +1,5 @@
 #!/usr/bin/python3
- 
+#coding=utf-8
 # 引入 datetime 模块
 import datetime
 def getYesterday(): 

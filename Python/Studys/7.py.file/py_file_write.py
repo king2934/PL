@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#coding=utf-8
 # 打开一个文件
 f = open("f.txt", "w+")
 

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#coding=utf-8
 
 def function_hello():
 	print("function_hello 函数")

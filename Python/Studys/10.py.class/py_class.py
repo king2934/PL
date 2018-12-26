@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#coding=utf-8
  
 class MyClass:
     """一个简单的类实例"""

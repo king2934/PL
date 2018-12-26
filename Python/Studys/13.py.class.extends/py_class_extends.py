@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#coding=utf-8
  
 #类定义
 class people:

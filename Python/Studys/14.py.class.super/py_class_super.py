@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#coding=utf-8
  
 class Parent:        # 定义父类
    def myMethod(self):
