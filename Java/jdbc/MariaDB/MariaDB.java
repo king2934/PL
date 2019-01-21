@@ -12,6 +12,7 @@ public class MariaDB
 		config.put("HostName","localhost");
 		config.put("HostPort","3308");
 		config.put("UserName","root");
+		config.put("PassWord","123456");
 		config.put("DataBase","mysql");
 		
 		UtilDB db = new UtilDB(config);
