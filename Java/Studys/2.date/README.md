@@ -14,6 +14,27 @@
 			System.out.println(" main date : "+d);
 			System.out.println(" main date : "+df);
 		}
+		
+		public String strDate()
+		{
+			Date d = new Date();
+			String dstr = d.toString();
+			System.out.println(dstr);
+			return dstr;
+		}
+		
+		//
+		public String strDateFormat()
+		{
+			//TimeZone.setDefault(TimeZone.getTimeZone("UTC"));//PRC
+			SimpleDateFormat sdf = new SimpleDateFormat ("yyyy-MM-dd HH:mm:ss");
+			Date d = new Date();
+			String dstr = sdf.format(d);
+			System.out.println(dstr);
+			return dstr;
+		}
 	}
+	
+	
 	
 	new MyDate() //实例化类的时候并不会执行main函数
