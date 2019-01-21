@@ -79,6 +79,7 @@ public class UtilDB
 			// 注册 JDBC 驱动
 			Class.forName(this.JDBC_DRIVER);
 			this.conn = DriverManager.getConnection(this.DB_URL, this._UserName, this._PassWord);
+			System.out.println("连接成功");
 		}
 		catch (ClassNotFoundException e)
 		{
@@ -131,10 +132,8 @@ public class UtilDB
 	{
 		try
 		{
-            if( this.conn != null ) {
-				this.conn.close();
-				//System.out.println("数据库已关闭连接。");
-			}
+			this.conn.close();
+			System.out.println("数据库已关闭连接。");
 		} 
 		catch (SQLException e)
 		{
