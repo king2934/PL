@@ -7,7 +7,6 @@ public class MyTest
 		mtt.start();
 		System.out.println("调用End");
 		
-		
 		System.out.println("第二次调用线程类MyThreadTest：");
 		MyThreadTest mtt2 = new MyThreadTest("第二次");
 		mtt2.start();
