@@ -14,6 +14,16 @@
 #include <string.h>
 #include <time.h>
 
+
+#include<sys/socket.h>
+#include<netinet/in.h>
+
+#include<unistd.h>
+
+#include<sys/types.h>
+#include<arpa/inet.h>
+
+
 int main(int argc,char* argv[])
 {
 	printf("librarys \n");
