@@ -16,6 +16,6 @@
 
 int main(int argc,char* argv[])
 {
-	printf("library");
+	printf("librarys \n");
 	return 0;
 }
