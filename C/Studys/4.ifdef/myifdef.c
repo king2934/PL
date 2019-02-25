@@ -7,6 +7,7 @@
 #elif __linux__
 #define SNMAE "Linux"
 #endif
+
 int main()
 {
 	printf("%s \n", SNMAE);
