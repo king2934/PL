@@ -3,13 +3,13 @@
 ##	socket2多进程 
 ##	socket3多线程
 
-#	Server 流程
+#	一、Server 流程
 	socket -> bind -> listen -> accept -> read -> write	-> read -> close
 	
-#	Client 流程
+#	二、Client 流程
 	socket -> connect -> write -> read -> close
 	
-#	Server 流程 - 函数
+#	（一） Server 流程 - 函数
 
 	1. int socket(int domain, int type, int protocol);
 	2. int bind(SOCKET socket, const struct sockaddr* address, socklen_t address_len);
@@ -19,7 +19,7 @@
 	5. int I/O //接收客户端连接上后做的操作
 	6. int close(int sockfd)
 	
-#	Client 流程 - 函数
+#	（二） Client 流程 - 函数
 
 	1. int socket(int domain, int type, int protocol);
 	2. int connect (int sockfd, struct sockaddr * serv_addr, int addrlen);
