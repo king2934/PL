@@ -9,8 +9,6 @@
 #endif
 int main()
 {
-	
 	printf("%s \n", SNMAE);
-	//printf("%s linux ", __linux__);
 	return 0;
 }
