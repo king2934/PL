@@ -6,8 +6,12 @@
 #	一、Server 流程
 	socket -> bind -> listen -> accept -> read -> write -> read -> close
 	
+	创建套接字 -> 绑定 -> 监听 -> 接受连接 -> I/O -> 关闭
+	
 #	二、Client 流程
 	socket -> connect -> write -> read -> close
+	
+	创建套接字 -> 连接 -> I/O -> 关闭
 	
 #	（一） Server 流程 - 函数
 
