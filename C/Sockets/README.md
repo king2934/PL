@@ -4,7 +4,7 @@
 ##	socket3多线程
 
 #	一、Server 流程
-	socket -> bind -> listen -> accept -> read -> write	-> read -> close
+	socket -> bind -> listen -> accept -> read -> write -> read -> close
 	
 #	二、Client 流程
 	socket -> connect -> write -> read -> close
