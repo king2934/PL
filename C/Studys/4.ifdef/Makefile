@@ -10,4 +10,4 @@ all:
 	#$(CC) main.c -fPIC -shared -o main.so
 	
 clean:
-	$(RM) *.exe *.o *.so
+	$(RM) myifdef *.exe *.o *.so
