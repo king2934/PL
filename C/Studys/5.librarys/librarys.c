@@ -36,8 +36,6 @@
 #define SNMAE "Linux"
 #endif
 
-
-
 int main(int argc,char* argv[])
 {
 	printf("librarys \n");
