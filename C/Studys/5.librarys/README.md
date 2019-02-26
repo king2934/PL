@@ -30,7 +30,7 @@
 		<td>4</td>
 		<td>errno.h</td>
 		<td></td>
-		<td></td>
+		<td>用来测试由库函数报的错误代码。</td>
 	</tr>
 	<tr>
 		<td>5</td>
@@ -72,7 +72,7 @@
 		<td>11</td>
 		<td>math.h</td>
 		<td></td>
-		<td></td>
+		<td>定义C语言数学函数。</td>
 	</tr>
 	<tr>
 		<td>12</td>
@@ -84,7 +84,7 @@
 		<td>13</td>
 		<td>signal.h</td>
 		<td></td>
-		<td></td>
+		<td>定义C语言信号处理函数。</td>
 	</tr>
 	<tr>
 		<td>14</td>
@@ -126,13 +126,13 @@
 		<td>20</td>
 		<td>stdio.h</td>
 		<td></td>
-		<td></td>
+		<td>定义核心输入和输出函数</td>
 	</tr>
 	<tr>
 		<td>21</td>
 		<td>stdlib.h</td>
 		<td></td>
-		<td></td>
+		<td>定义数值转换函数、伪随机数生成函数、动态内存分配、过程控制函数</td>
 	</tr>
 	<tr>
 		<td>22</td>
@@ -144,7 +144,7 @@
 		<td>23</td>
 		<td>string.h</td>
 		<td></td>
-		<td></td>
+		<td>定义C语言字符串处理函数</td>
 	</tr>
 	<tr>
 		<td>24</td>
@@ -162,7 +162,7 @@
 		<td>26</td>
 		<td>time.h</td>
 		<td></td>
-		<td></td>
+		<td>定义日期和时间处理函数</td>
 	</tr>
 	<tr>
 		<td>27</td>
