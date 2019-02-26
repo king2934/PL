@@ -13,7 +13,6 @@
 #include <signal.h>
 #include <stdalign.h>
 #include <stdarg.h>
-#include <stdatomic.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
@@ -22,11 +21,22 @@
 #include <stdnoreturn.h>
 #include <string.h>
 #include <tgmath.h>
-#include <threads.h>
 #include <time.h>
 #include <uchar.h>
 #include <wchar.h>
 #include <wctype.h>
+
+/*#include <threads.h> windows 和 linux 提示找不到文件*/
+
+#ifdef _WIN64
+#include <stdatomic.h>
+#elif _WIN32
+#include <stdatomic.h>
+#elif __linux__
+#define SNMAE "Linux"
+#endif
+
+
 
 int main(int argc,char* argv[])
 {
