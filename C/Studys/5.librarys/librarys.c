@@ -30,14 +30,16 @@
 
 #ifdef _WIN64
 #include <stdatomic.h>
+#define SNMAE "Win64"
 #elif _WIN32
 #include <stdatomic.h>
+#define SNMAE "Win32"
 #elif __linux__
 #define SNMAE "Linux"
 #endif
 
 int main(int argc,char* argv[])
 {
-	printf("librarys \n");
+	printf("librarys %s \n",SNMAE);
 	return 0;
 }
