@@ -36,7 +36,7 @@ public class MyJFrame extends JFrame implements ActionListener
 		setLocationRelativeTo(null);
 		
 		//添加按钮
-		JButton btn1 = new JButton("浏览");
+		JButton btn1 = new JButton("点击");
 		btn1.setName("btn1");
 		btn1.setBounds(80, 70, 60, 25);//大小位置
 		btn1.setVisible(true);
