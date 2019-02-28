@@ -33,5 +33,9 @@ int main(int argc,char* argv[])
 		close(sock);
 		return 1;
 	}
+	
+	printf("socket OK! \n");
+	
+	
 	return 0;
 }
