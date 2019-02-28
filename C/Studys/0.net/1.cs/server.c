@@ -29,8 +29,9 @@ int main(int argc,char* argv[])
 	
 	int sock=socket(AF_INET,SOCK_STREAM,0);
 	if(sock<0){
-		printf("bind()\n");
+		printf("socket()\n");
 		close(sock);
+		return 1;
 	}
 	return 0;
 }
