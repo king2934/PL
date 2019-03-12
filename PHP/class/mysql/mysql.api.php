@@ -21,7 +21,7 @@ class MYSQLAPI{
 	{
 		$this->CONNECTION = mysqli_connect($this->HOSTNAME,$this->USERNAME,$this->PASSWORD,$this->DATABASE);
 		if(!$this->CONNECTION){
-			die("连接失败".mysql_error()); 
+			die("连接失败".mysqli_connect_error()); 
 		}
 	}
 	
