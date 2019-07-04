@@ -10,7 +10,7 @@
 #define _PORT_ 9999
 #define _BACKLOG_ 10
 int main()
-{                                                                                                          
+{
     int sock=socket(AF_INET,SOCK_STREAM,0);
     if(sock<0)
     {
