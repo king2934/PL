@@ -16,7 +16,7 @@ public class Test
 {
 	public static void main(String[] args)
 	{
-		InetSocketAddress  isa = new InetSocketAddress("113.31.112.27",11111);
+		InetSocketAddress  isa = new InetSocketAddress("127.0.0.1",11111);
 		//System.out.println(isa.getHostName());
 		System.out.println( "InetSocketAddress." );
 
