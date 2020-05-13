@@ -1,0 +1,7 @@
+E:\GitHub\pl\CSharp\ShowPDF\bin\ShowPDF.dll.config
+E:\GitHub\pl\CSharp\ShowPDF\bin\ShowPDF.dll
+E:\GitHub\pl\CSharp\ShowPDF\bin\ShowPDF.pdb
+E:\GitHub\pl\CSharp\ShowPDF\obj\Release\ShowPDF.csprojAssemblyReference.cache
+E:\GitHub\pl\CSharp\ShowPDF\obj\Release\ShowPDF.csproj.CoreCompileInputs.cache
+E:\GitHub\pl\CSharp\ShowPDF\obj\Release\ShowPDF.dll
+E:\GitHub\pl\CSharp\ShowPDF\obj\Release\ShowPDF.pdb
