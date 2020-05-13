@@ -15,6 +15,7 @@ namespace ShowPDF
 
         public void ProcessRequest(HttpContext context)
         {
+            //string flag = context.Request["mcode"] == null ? "" : context.Request["mcode"].ToString();
             FileStream fs = File.OpenRead("E:\\GitHub\\pl\\CSharp\\ShowPDF\\test.pdf");
 
             byte[] buffer = new byte[fs.Length];
