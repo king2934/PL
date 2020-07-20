@@ -5,5 +5,23 @@
 		"service_uri":"192.168.1.120",
 		"num":1,
 		"key":"value"
-	}
+	},
+	"arrays":
+	[
+		{
+			"array":"array1",
+			"array2":"array2",
+			"array3":"array3"
+		},
+		{
+			"array21":"array21",
+			"array22":"array22",
+			"array23":"array23"
+		},
+		{
+			"array":"array1",
+			"array2":"array2",
+			"array3":"array3"
+		}
+	]
 }
