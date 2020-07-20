@@ -1,0 +1,9 @@
+{
+	"configuration":
+	{
+		"isupdate":true,
+		"service_uri":"192.168.1.120",
+		"num":1,
+		"key":"value"
+	}
+}
